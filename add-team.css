@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  /* Header part */
+  #head-con2 {
+    margin-top: 13px;
+    width: 100%;
+    position: fixed;
+    height: 10px;  
+  }
+  #logo {
+    width: 120px;
+    background-color: #735fc9;
+  }
+  #head-right {
+    display: flex;
+    width: 60%;
+  }
+  #home-button {
+    margin-top: 10px;
+    width: 10%;
+    margin-left: 2%;
+    height: 50px;
+    width: 100px;
+    border: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  #home-button:hover {
+    box-shadow: 1px 1px 5px #6e61d8, -0.1px -0.1px 10px rgb(39, 25, 88);
+    cursor: pointer;
+  }
+  /* Main part */
+  .add-button {
+    cursor: pointer;
+    background: #358ec2;  
+    background: -webkit-linear-gradient(to right, #4c59a2, #261e5f);  
+    background: linear-gradient(to right, #5661a1, #271e58); 
+    border: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 5px 20px;
+    margin: 10px;
+  }
+  .add-button:hover {
+    box-shadow: 0px 0px 5px #564ca7, -0.1px -0.1px 10px rgb(40, 24, 81);
+    cursor: pointer;
+  }
+  #addteamform {
+    background: #3476df;  
+    background: -webkit-linear-gradient(to right, #5654ba, #253da4, #093884); 
+    background: linear-gradient(to right, #726bd1, #2b409c, #082453);
+    border-radius: 20px;
+    margin: 10px 0;
+    width: 60%;
+    border: 1px solid rgb(255, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0 60px 0;
+  }
+  #addteamform p {
+    font-size: 24px;
+    padding: 20px 0 0 0;
+    font-weight: 500;
+    color: rgb(230, 221, 221);
+  }
+  #addteamform input {
+    width: 70%;
+    height: 40px;
+  }
+  #addteamform select {
+    width: 70%;
+    height: 40px;
+  }
+  
+  #addteamform button {
+    display: block;
+    font-size: 16px;
+    margin-top: 50px;
+    font-weight: 600;
+    color: #fff;
+    padding: 16px 30px;
+    letter-spacing: 2px;
+    background-color: #312370;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #addteamform button:hover {
+    box-shadow: 0 2px 10px rgba(255, 0, 0, 0.5);
+  }
+#add-team {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  #slogan2 {
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    padding: 20px 0;
+    width: 100%;
+    background-color: #4f42d8;
+    background: #09006a;  
+    background: -webkit-linear-gradient(to right, #e3e3e3, #a8a8a9, #737374); 
+    background: linear-gradient(to right, #e8e8e9, #a2a2a3, #676767); 
+    cursor: pointer;
+  }
+  /* Footer part */
+  footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+  }

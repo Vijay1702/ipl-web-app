@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  /* Header part */
+  #head-con4 {
+    margin-top: -70px;
+    width: 100%;
+    box-shadow: 2px 4px 2px rgb(17 16 16 / 50%);
+    position: fixed;
+    height: 70px;
+  
+    background-color: #dddddd;
+  }
+  #logo {
+    width: 120px;
+    background-color: #efefef;
+  }
+  #head-right {
+    display: flex;
+    width: 60%;
+  }
+  #home-button {
+    margin-top: 10px;
+    width: 10%;
+    margin-left: 2%;
+    height: 50px;
+    width: 100px;
+    border: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  #home-button:hover {
+    box-shadow: 1px 1px 5px #5243c0, -0.1px -0.1px 10px rgb(165, 161, 161);
+    cursor: pointer;
+  }
+  .add-button {
+    cursor: pointer;
+    background: #536976;  
+  background: -webkit-linear-gradient(to right, #292E49, #536976);  
+  background: linear-gradient(to right, #292E49, #536976); 
+    border: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 5px 20px;
+    margin: 10px;
+  }
+  .add-button:hover {
+    box-shadow: 0px 0px 5px #5243c0, -0.1px -0.1px 10px rgb(165, 161, 161);
+    cursor: pointer;
+  }
+  /* Main part */
+  #player_detail-img img {
+    width: 35%;
+    margin: 5px 0 -10px 0;
+    margin-left: 19vw;
+  }
+  #player-details-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #slogan4 {
+    justify-content: center;
+    display: flex;
+    margin-top: 70px;
+    padding: 20px 0;
+    width: 100%;
+    background-color: #74ebd5;
+    background-image: linear-gradient(90deg, #67229c 0%, #de354f 100%);
+    cursor: pointer;
+  } 
+  .player-detail td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background-color: #001f3f;
+    color: white;
+    background-image: radial-gradient(
+      circle 976px at 51.2% 51%,
+      rgb(103, 11, 75) 0%,
+      rgb(16, 141, 157) 0%,
+      rgb(157, 24, 157) 17.3%,
+      rgba(11, 27, 103, 1) 58.8%,
+      rgba(11, 27, 103, 1) 71.4%,
+      rgba(16, 66, 157, 1) 100.2%,
+      rgba(187, 187, 187, 1) 100.2%
+    );
+  }
+  .player-detail {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #0093e9;
+    background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  } 
+  /* Footer part */
+  footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+  
+    padding: 50px;
+  }
